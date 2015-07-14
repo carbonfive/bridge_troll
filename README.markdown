@@ -40,7 +40,7 @@ git clone https://github.com/username/bridge_troll.git
 cd bridge_troll
 ```
 
-Make sure you have the correct version of ruby before installing the gems for this repo. If you are using rvm, run: `rvm install 2.1.2`. For rbenv, run: `rbenv install 2.1.2`.
+Make sure you have the correct version of ruby before installing the gems for this repo. If you are using rvm, run: `rvm install 2.2.2`. For rbenv, run: `rbenv install 2.2.2`.
 
 Finish setting up your environment (Note: This has nothing to do with Twitter Bootstrap)
 ```
@@ -104,7 +104,7 @@ Note that MailCatcher just makes it easy to see the HTML output of your mails: i
 
 If you are just getting started, skip these steps for now.
 
-When developing the parts of Bridge Troll that communicate with external services such as meetup and authentication, you will need to use API keys, which are most easily managed with environment variables. Environment variables control various aspects of how your code runs. 
+When developing the parts of Bridge Troll that communicate with external services such as meetup and authentication, you will need to use API keys, which are most easily managed with environment variables. Environment variables control various aspects of how your code runs.
 
 To set up environment variables for the Rails server, you'll need to create an `.env` file in the Bridge Troll directory. Here's a sample one (note these are not real API keys):
 
